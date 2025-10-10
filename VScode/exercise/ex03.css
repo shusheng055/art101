@@ -1,0 +1,33 @@
+.test-div {
+    background: orange;
+    padding: 20px;
+    margin: 20px;
+}
+
+.test-div h2 {
+    color:yellow;
+}
+
+button {
+    border: 0;
+    padding: 5px;
+}
+
+button:hover {
+    background: yellow;
+}
+h1, h2, h3, h4 {
+    text-decoration: underline;
+}
+
+.test-div h2 {
+    background: plum;
+}
+
+.test-div .special {
+    text-decoration: underline;
+}
+
+#house {
+    display: flex;
+}

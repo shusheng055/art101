@@ -6,7 +6,7 @@ $("#needy-button").click( function(){
 
     totalNumber = totalNumber + 1;
 
-    let sentence = "I was clicked";
+    let sentence = "I was clicked ";
     let totalNumbers= sentence + totalNumber;
 
     $("#needy-button").html(totalNumbers);
@@ -15,6 +15,7 @@ $("#needy-button").click( function(){
 
 });
 // When its clicked
+
 
 // add one to total number
 
@@ -25,3 +26,4 @@ $("#needy-button").click( function(){
 // show "clicked total number times"
 
 // a top limit
+

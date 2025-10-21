@@ -9,3 +9,8 @@ H1, H2, H3 {color: #866bc6; font-family: sans-serif;}
 display: flex;
 gap: 20px;
 }
+
+#red {
+    color: red;
+    font-size: 150%;
+}

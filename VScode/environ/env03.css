@@ -10,7 +10,12 @@ body {
 }
 
 #cat{
-    width: 800px;
+    width: 300px;
+}
+
+#blackCat {
+    width: 200px;
+    display: none
 }
 
 h1{

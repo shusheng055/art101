@@ -19,7 +19,7 @@ let cat = {
 
     $("#cat").attr("src", "images/BlackCat.png");
     $("#change").css("background-color", "orange");
-    $("#output").append("cat changed!");
+    $("#words").append("cat changed!");
     $("#output").html("cat name: " + blackCat.name + ", age: " + blackCat.age + ", color: " + blackCat.color + "<br>");
     
     

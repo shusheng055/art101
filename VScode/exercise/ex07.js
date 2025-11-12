@@ -17,6 +17,7 @@ function changeBackground (newColor) {
 
 $(".color-button").click(function(){
     changeBackground(this.id);
+    
 })
 
 function moody(moodyCount) {

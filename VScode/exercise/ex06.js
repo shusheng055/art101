@@ -3,6 +3,7 @@ let click = 1;
 let moodv = 0;
 let mood = [", fresh and happy", ", keep pushing", ", so tired!"]
 let colors = ["Orchid", "Coral", "Hotpink", "Plum"];
+var audio = document.getElementById("sound");
 
 $("#needy-button").click(function(){
 
@@ -20,4 +21,7 @@ $("#needy-button").click(function(){
     if (click < 5) {moodV = 0;}
     else if ((click >= 5) && (click < 10)) {moodv = 1;}
     else {moodv = 2;}
+    
+    audio.play();
+    
 })
